@@ -1,0 +1,226 @@
+[INFO ] 2023-02-14 16:52:04.923 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Powered by SHAFT Engine v7.1.20230130                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-02-14 16:53:13.834 [main] ReportManager - Loaded OpenCV "opencv_java460".
+[INFO ] 2023-02-14 16:53:13.836 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-02-14 16:53:14.700 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-02-14 16:53:16.459 [main] Utils - [TestNG] Running:
+  C:\Users\WIN 10\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2023-02-14 16:53:16.549 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+       Starting execution of suite setup configuration method
+'io.github.shafthq.shaft.listeners.helpers.ConfigurationHelper.suiteSetup'       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-02-14 16:53:16.703 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-02-14 16:53:16.703 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-02-14 16:53:17.256 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                       Starting Execution: '1 out of 1' test cases in the current suite
+Test Method: 'basics.Base.setUp'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[DEBUG] 2023-02-14 16:53:18.326 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2023-02-14 16:53:18.341 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-02-14 16:53:18.341 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-02-14 16:53:18.370 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@66abc325
+[DEBUG] 2023-02-14 16:53:18.447 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-02-14 16:53:18.447 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-02-14 16:53:18.450 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-02-14 16:53:18.451 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-02-14 16:53:18.452 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-02-14 16:53:18.453 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-02-14 16:53:18.454 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-02-14 16:53:18.456 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-02-14 16:53:18.458 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @23529fee
+[DEBUG] 2023-02-14 16:53:18.459 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-02-14 16:53:18.459 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-02-14 16:53:18.460 [main] PlatformDependent - maxDirectMemory: 2120220672 bytes (maybe)
+[DEBUG] 2023-02-14 16:53:18.461 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\WIN10~1\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-02-14 16:53:18.461 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-02-14 16:53:18.461 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-02-14 16:53:18.462 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-02-14 16:53:18.463 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-02-14 16:53:18.465 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-02-14 16:53:18.465 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-02-14 16:53:18.492 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-02-14 16:53:18.732 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-02-14 16:53:18.732 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-02-14 16:53:19.939 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-02-14 16:53:19.940 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-02-14 16:53:20.138 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2023-02-14 16:53:20.161 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-02-14 16:53:20.161 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-02-14 16:53:20.311 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2023-02-14 16:53:20.311 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-02-14 16:53:20.312 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-02-14 16:53:20.313 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-02-14 16:53:20.348 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-02-14 16:53:20.348 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-02-14 16:53:20.348 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-02-14 16:53:21.437 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 7424 (auto-detected)
+[DEBUG] 2023-02-14 16:53:21.451 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-02-14 16:53:21.451 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-02-14 16:53:21.469 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-02-14 16:53:21.471 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-02-14 16:53:21.537 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: f0:d5:bf:ff:fe:88:c9:cb (auto-detected)
+[DEBUG] 2023-02-14 16:53:21.718 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-02-14 16:53:21.718 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-02-14 16:53:21.718 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@45734f68
+[DEBUG] 2023-02-14 16:53:21.807 [AsyncHttpClient-1-2] NettyConnectListener - Using new Channel '[id: 0x7768cbc3, L:/127.0.0.1:52122 - R:/127.0.0.1:4723]' for 'POST' to '/session'
+[DEBUG] 2023-02-14 16:53:22.057 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-02-14 16:53:22.057 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-02-14 16:53:22.058 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-02-14 16:53:22.058 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-02-14 16:53:50.647 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-02-14 16:53:50.647 [AsyncHttpClient-1-2] HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+X-Idempotency-Key: a0ed3843-0c05-4f95-b702-668a40392cd8
+User-Agent: appium/8.3.0 (selenium/4.8.0 (java windows))
+Content-Length: 333
+Content-Type: application/json; charset=utf-8
+host: 0.0.0.0:4723
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Vary: X-HTTP-Method-Override
+Content-Type: application/json; charset=utf-8
+Content-Length: 903
+ETag: W/"387-TeNbM7OJbKwayf6uBne37LTj8Gk"
+Date: Tue, 14 Feb 2023 14:53:50 GMT
+Connection: keep-alive
+Keep-Alive: timeout=600
+
+[DEBUG] 2023-02-14 16:53:50.702 [AsyncHttpClient-1-2] ChannelManager - Adding key: http://0.0.0.0:4723 for channel [id: 0x7768cbc3, L:/127.0.0.1:52122 - R:/127.0.0.1:4723]
+[DEBUG] 2023-02-14 16:53:50.803 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://0.0.0.0:4723 : 1
+[INFO ] 2023-02-14 16:53:51.124 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2023-02-14 16:53:51.353 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+    Starting execution of suite teardown configuration method
+'io.github.shafthq.shaft.listeners.helpers.ConfigurationHelper.suiteTeardown'    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[INFO ] 2023-02-14 16:53:51.355 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-02-14 16:53:51.356 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-02-14 16:53:51.357 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2023-02-14 16:53:51.359 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "C:\Users\WIN 10\IdeaProjects\SheftEngine_Practice\target\logs\log4j.log"".
+[INFO ] 2023-02-14 16:53:51.360 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log"".
+[INFO ] 2023-02-14 16:53:51.363 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20230214-165351'
+[DEBUG] 2023-02-14 16:53:51.429 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:51.431 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:51.433 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:51.434 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2023-02-14 16:53:51.434 [main] cache - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2023-02-14 16:53:51.681 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:51.682 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:51.682 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:51.682 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2023-02-14 16:53:51.683 [main] cache - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2023-02-14 16:53:51.924 [AsyncHttpClient-1-1] DefaultChannelPool - Entry count for : http://0.0.0.0:4723 : 1
+[DEBUG] 2023-02-14 16:53:52.000 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.001 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.001 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.002 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.002 [main] cache - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2023-02-14 16:53:52.017 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.017 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.018 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.019 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.019 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2023-02-14 16:53:52.021 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.022 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.023 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.023 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.023 [main] cache - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2023-02-14 16:53:52.026 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.027 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.027 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.028 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.028 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2023-02-14 16:53:52.035 [main] cache - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2023-02-14 16:53:52.035 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.035 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.036 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.036 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.037 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2023-02-14 16:53:52.049 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.050 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.051 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.052 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.052 [main] cache - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2023-02-14 16:53:52.085 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.086 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.087 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.088 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.088 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2023-02-14 16:53:52.089 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.090 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.090 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.091 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.091 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2023-02-14 16:53:52.102 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.103 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.103 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.103 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.104 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2023-02-14 16:53:52.124 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.125 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.126 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.126 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.126 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2023-02-14 16:53:52.223 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.224 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.225 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.225 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.225 [main] cache - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2023-02-14 16:53:52.241 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.241 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.242 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.242 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.242 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2023-02-14 16:53:52.251 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.251 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.252 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.252 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.252 [main] cache - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2023-02-14 16:53:52.253 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.254 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.254 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.254 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.254 [main] cache - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2023-02-14 16:53:52.255 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.256 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.257 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.257 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.257 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2023-02-14 16:53:52.259 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-02-14 16:53:52.259 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.260 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2023-02-14 16:53:52.260 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2023-02-14 16:53:52.261 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/WIN%2010/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2023-02-14 16:53:52.266 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_14-02-2023_16-53-14-0703-PM.html"".
+[INFO ] 2023-02-14 16:53:52.267 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "extent-reports/ExtentReports_14-02-2023_16-53-14-0703-PM.html"".
+[INFO ] 2023-02-14 16:53:52.268 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "extent-reports/ExtentReports_14-02-2023_16-53-14-0703-PM.html"".
+[INFO ] 2023-02-14 16:53:52.270 [main] ReportManager - File Action "ReadFile" successfully performed. With the following test data "File Path: "C:\Users\WIN 10\IdeaProjects\SheftEngine_Practice\extent-reports\ExtentReports_14-02-2023_16-53-14-0703-PM.html"".
+[INFO ] 2023-02-14 16:53:52.272 [main] ReportManager - Successfully created attachment 'HTML - Extent Emailable Execution Report'
+[INFO ] 2023-02-14 16:53:52.273 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2023-02-14 16:53:52.292 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2023-02-14 16:53:52.346 [main] ReportManager - Attempting to execute the following command locally. Command: "generate_allure_report.bat"
+[INFO ] 2023-02-14 16:53:52.394 [main] ReportManager - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                            This test run was powered by SHAFT Engine v7.1.20230130                                            
+                                 SHAFT Engine is *and will always be* 100% FREE for commercial and private use                                 
+                                                       in compliance with the MIT license                                                       
+                                          https://github.com/ShaftHQ/SHAFT_ENGINE/blob/master/LICENSE                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
