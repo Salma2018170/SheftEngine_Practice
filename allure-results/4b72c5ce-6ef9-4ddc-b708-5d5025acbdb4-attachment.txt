@@ -1,0 +1,8 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+              Starting Execution: '1 out of 4' test cases in the current suite
+Test Method: 'com.shaft.testcase.LogInTestCase.TC1'              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[ReportManager] Tap "By.xpath: (//*[@text='Egypt'])". @11-03-2023 13:06:14.0037 PM
+[ReportManager] Tap "By.id: com.android.permissioncontroller:id/permission_allow_foreground_only_button". @11-03-2023 13:06:18.0826 PM
+[ReportManager] Tap "By.xpath: (//android.widget.TextView[@text='CONFIRM LOCATION'])". @11-03-2023 13:06:22.0585 PM
