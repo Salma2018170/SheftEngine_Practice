@@ -28,9 +28,7 @@ public class LoginScreen {
     public void setPassword(String password) {
         new TouchActions().performElementAction().typeAppend(passwordField,password);
 
-//        WebElement passwordElement = driver.findElement(passwordField);
-//       passwordElement.clear();
-//       passwordElement.sendKeys(password);
+
 
     }
     public PaymentScreen clickSigInButton() {

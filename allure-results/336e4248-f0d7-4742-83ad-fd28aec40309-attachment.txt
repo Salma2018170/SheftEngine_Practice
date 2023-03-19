@@ -1,0 +1,8 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                Starting Execution: '4 out of 4' test cases in the current suite
+Test Method: 'com.shaft.testcase.EndTwoEnd.TC4'                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[ReportManager] Assertion "ValidateElementExists" PASSED. Expected "Element Should Exist, locator 'By.xpath: (//android.widget.TextView[@text='Please verify your mobile number'])'" and Actual "Element Exists". Comparison Type "EQUALS". Validation Type "POSITIVE". @11-03-2023 17:43:50.0039 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: (//android.widget.TextView[@text='Please verify your mobile number'])" exists. @11-03-2023 17:43:50.0040 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1678549429139_TC4_ValidateElementExists_passed' @11-03-2023 17:43:50.0105 PM

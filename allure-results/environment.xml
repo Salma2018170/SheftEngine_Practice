@@ -22,7 +22,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener io.github.shafthq.shaft.listeners.TestNGListener -socket50432 @w@C:\Users\WIN10~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\WIN10~1\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener io.github.shafthq.shaft.listeners.TestNGListener -socket55549 @w@C:\Users\WIN10~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\WIN10~1\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -147,6 +147,10 @@
   <parameter>
     <key>java.vm.specification.version</key>
     <value>19</value>
+  </parameter>
+  <parameter>
+    <key>mobile_appActivity</key>
+    <value>com.noon.buyerapp.MainActivity</value>
   </parameter>
   <parameter>
     <key>automaticallyAssertResponseStatusCode</key>
@@ -615,6 +619,10 @@
   <parameter>
     <key>waitForLazyLoading</key>
     <value>true</value>
+  </parameter>
+  <parameter>
+    <key>mobile_appPackage</key>
+    <value>com.noon.buyerapp</value>
   </parameter>
   <parameter>
     <key>java.class.path</key>

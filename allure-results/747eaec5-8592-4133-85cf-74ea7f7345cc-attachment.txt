@@ -1,0 +1,9 @@
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                Starting Execution: '3 out of 4' test cases in the current suite
+Test Method: 'com.shaft.testcase.EndTwoEnd.TC3'                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[ReportManager] Tap "By.xpath: (//android.widget.TextView[@text='CHECKOUT'])". @11-03-2023 17:43:32.0808 PM
+[ReportManager] Type append "salmamoo504@gmail.com" into "By.xpath: //android.widget.EditText[@resource-id='email']". @11-03-2023 17:43:35.0823 PM
+[ReportManager] Type append "11338899Hamed#" into "By.xpath: //android.widget.EditText[@resource-id='password']". @11-03-2023 17:43:37.0270 PM
+[ReportManager] Tap "By.xpath: //android.widget.TextView[@text='Sign In']". @11-03-2023 17:43:38.0801 PM

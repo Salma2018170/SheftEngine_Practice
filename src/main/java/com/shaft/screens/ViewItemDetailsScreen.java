@@ -19,15 +19,11 @@ public class ViewItemDetailsScreen {
         driver.findElement(AppiumBy.androidUIAutomator
                 ("new UiScrollable(new UiSelector().scrollable(true))" +
                         ".scrollIntoView(new UiSelector().textContains(\"VIEW MORE\"))")).click();
-//        new TouchActions().swipeElementIntoView("VIEW MORE");
-//        driver.findElement(AppiumBy.androidUIAutomator
-//                ("new UiScrollable(new UiSelector().scrollable(true))" +
-//                        ".scrollIntoView(new UiSelector().textContains(\"More from Fresh\"))"));
     }
     public CartScreen addItemToCart( )
     {
-        new TouchActions().tap(cartButton).performElementAction();
-        new TouchActions().tap(viewCartButton).performElementAction();
+        new TouchActions().tap(cartButton).
+                tap(viewCartButton).performElementAction();
 //
         return new CartScreen(driver);
     }
