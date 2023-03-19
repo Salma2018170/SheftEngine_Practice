@@ -19,6 +19,7 @@ public class PaymentScreen {
 //                .typeAppend(,mobile);
     }
     public void verifyMobileVisible(){
-        Validations.assertThat().element(driver,verifyMobile).isDisabled().perform();
+        Validations.assertThat().element(driver,verifyMobile).exists().perform();
     }
+
 }

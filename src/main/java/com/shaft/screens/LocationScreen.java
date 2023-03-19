@@ -28,9 +28,7 @@ public class LocationScreen {
        new TouchActions().tap(egyptButton).performElementAction();
 
         new TouchActions(driver)
-                .tap(permissionButton).performElementAction();
-       // shaftDriver.element().click(confirmLocationButton);
-        new TouchActions(driver)
+                .tap(permissionButton)
                 .tap(confirmLocationButton).performElementAction();
 
         return new HomeScreen(driver);

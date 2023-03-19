@@ -16,36 +16,17 @@ import java.net.URL;
 public class Base {
    protected AndroidDriver driver;
    protected LocationScreen locationScreen;
-    //@BeforeTest
-    public void setUp() throws Exception {
-        System.setProperty("targetOperatingSystem", "Android");
-        System.setProperty("executionAddress", "0.0.0.0:4723");
-        //System.setProperty("mobile_appPackage","com.noon.buyerapp");
-        //System.setProperty("mobile_appActivity","com.noon.buyerapp.MainActivity");
-        UiAutomator2Options options = new UiAutomator2Options()
-                .setPlatformName(System.getProperty("targetOperatingSystem"))
-                .setAutomationName(System.getProperty("mobile_automationName"))
-                .setDeviceName(System.getProperty("mobile_deviceName"))
-                .setAppPackage(System.getProperty("mobile_appPackage"))
-                .setAppActivity(System.getProperty("mobile_appActivity"));
-        driver = new AndroidDriver(new URL("http://" + System.getProperty("executionAddress")), options);
-       // driver = (AndroidDriver) DriverFactory.getDriver();
-        locationScreen = new LocationScreen(driver);
-    }
     @BeforeTest
-    public void setUpTry()  {
-
+    public void setUp()  {
         System.setProperty("targetOperatingSystem", "Android");
-        System.setProperty("mobile_deviceName", "4DSWVK4LCQORAI8H");
-        System.setProperty("mobile_appPackage","com.noon.buyerapp");
-        System.setProperty("mobile_appActivity","com.noon.buyerapp.MainActivity");
         System.setProperty("executionAddress", "0.0.0.0:4723");
+        System.setProperty("openAllureReportAfterExecution","true");
         driver = (AndroidDriver) DriverFactory.getDriver();
     }
 
-
     @AfterTest
     public void teardown() {
+
         DriverFactory.closeAllDrivers();
     }
 }
